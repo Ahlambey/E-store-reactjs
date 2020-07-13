@@ -6,9 +6,7 @@ import { ProductConsumer } from "../context";
 import PropTypes from "prop-types";
 
 export default class Product extends Component {
-  constructor(props) {
-    super(props);
-  }
+
 
   render() {
     const { id, title, img, price, inCart } = this.props.product;
