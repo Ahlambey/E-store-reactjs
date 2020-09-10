@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import logo from "../logo.svg";
+import logo from "../mobile.svg";
 import {ButtonContainer} from './Button';
 import styled from 'styled-components';
 
@@ -10,7 +10,7 @@ export default class NavBar extends Component {
     return (
       <NavWraper className="navbar navbar-expand-sm  navbar-dark px-sm-5 bg-primary">
         <Link to="/">
-          <img src={logo} alt="store-logo" className="navbar-brand" />
+          <img src={logo} style={{width:'3.5rem'}} alt="store-logo" className="navbar-brand" />
         </Link>
         <ul className="navbar-nav align-items-center">
           <li className="nav-item ml-5">
